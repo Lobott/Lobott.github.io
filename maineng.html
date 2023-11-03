@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesresp.css">
+    <title>ENG</title>
+</head>
+<body>
+
+   
+    <section class="hero">
+
+        <label>
+            <input type="checkbox">
+            <span class="menu"> <span class="hamburger"></span> </span>
+            <ul>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#projects">Projects</a> </li>
+            <li> <a href="#contacts">Contact</a> </li>
+            </ul>
+        </label>
+        
+        <div class="info">
+            <h1>Hi, I'm <span>Loris</span>, welcome to my <br><span>UI developer</span> portfolio 👋🏻</h1>
+            <h4>have a look around, appreciate some projects, <br> don't be shy, get a virtual coffee if you want ☕</h4>
+            <p>What's a virtual coffee? Don't know but won't judge you for having one</p>
+            <a href="mailto:loris.botto@protonmail.com"><button class="btn-contact">Contact me</button></a>
+            <button class="btn-coffee" id="coffee-btn">Virtual coffee</button>
+        </div>
+
+        <div class="image-largescreen">
+            <div class="my-photo"></div>
+        </div>
+
+    </section>
+
+    <section class="pic">
+        <div class="my-photo"></div>
+        <div class="s-hidden-quote">
+          <h1 class="s-h1-hidden">"People ignore design that ignores people."</h1>
+          <p class="s-p-hidden">Frank Chimero (Designer)</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1 class="h1-about">About 🕵🏻‍♂️</h1>
+            <p class="p-about">I'm transitioning from academia and 
+            International Relations to Web Design to pursue my passion for visual art and programming 
+            languages. I've taught myself everything I know about programming (with some open-source 
+            online help and the aid of some good ol' book, of course) definitely Front end - UI/UX 
+            oriented, but I find Back end to be seductive. I've just began my journey and I'm looking 
+            forward to learning new things!</p>
+            <hr>
+            <h4 class="h4-about">Technical 💻</h4>
+            <p class="p-about">I fell in love with JavaScript and find JSX very intriguing (even though I'm still not fluent in React). I like working with HTML, CSS, and their libraries, trying to translate what I design on Figma, Canva, Photoshop, and Adobe XD down the last pixel.</p>
+            <hr>
+            <h4 class="h4-about">Personal 💁🏻‍♂️</h4>
+            <p class="p-about">I grew up in Italy and spent most of my life in a small town in the countryside. I like any form of art (except for dance, I just don't get it). I love visual stuff, I paint, draw, and sometimes try to sculptur (poorly). I love music and play quite some instruments, like piano, violin, and guitar.</p>
+            <hr>
+            <p class="p-about"><span class="white">Let's work together, shall we?</span></p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #053B50"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #053B50"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/project-one-img-1.png" class="d-block w-100" alt="project one">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="color: #053B50">CoinCircle</h5>
+                  <p class="p-carousel">Payment and money transfer mobile app design</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/project-two-img-1.png" class="d-block w-100" alt="project two">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="color: #f38630">swear.ai</h5>
+                  <p class="p-carousel" style="color: #f38630">fashion AI website design</p>
+                </div>
+              </div>
+  
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+    <section class="feedbacks">
+
+        <div class="circle" id="circle1"></div>
+        <div class="circle" id="circle2"></div>
+        <div class="circle" id="circle3"></div>
+        <div class="text">
+            <h4><em>
+                "Loris is a <span class="white">nice guy</span>: honest, 
+                <span class="white">reliable</span>, smart, handsome, and constantly 
+                hungry (for <span class="white">knowledge</span>). He spent his 
+                entire life drawing and making the most out of his passion 
+                for <span class="white">art</span>. Hire him now, thank me 
+                later. <br> <span class="small">Take a virtual coffee by the way, 
+                you seem hungry</span>
+            </em>"</h4>
+        
+            <p>My Grandmother</p>
+        </div>
+        
+ 
+    </section>
+
+    <footer class="footer" id="contacts">
+        <h1 class="h1-footer">Contact me</h1>
+        <h2 class="h2-footer">We can work together! 💪🏻</h2>
+        <p class="p-footer"></p>
+        <p class="p-footer">Take a look at my <a href="" class="a-footer"> resume</a> if you feel like 📜</p>
+        <p class="p-footer"><a href="docs/wdprojects.pdf" class="a-footer">Read</a> in detail the project you've seen in my portfolio 👌🏻</p>
+        <p class="p-footer">Or send me an <a href="mailto:loris.botto@protonmail.com" class="a-footer"> email</a> , even if you just want to say "hi" 📬</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
