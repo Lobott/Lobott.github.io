@@ -54,6 +54,12 @@
     color: var(--darkblue)
 }
 
+#lang-svg {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 2s infinite alternate;
+}
+
 @media only screen and (max-width: 590px) {
     .lang-container {
         width: 100%;
